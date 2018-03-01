@@ -1,0 +1,13 @@
+singleorgsearch should work Ingvild
+warnings med DIVs :: Mikkel
+Done: check if we dont have some data, Kristian
+Done: to be able to plot again without refresh Kristian
+feedback to the admin when submiting success/fail: Ingvild
+Done: bug when changes in the admin menu, do not refresh the predefined stocks : Kristian
+menu slider scroll bar: mikkel  (react-select)
+mount the app in i dhis: Carl
+select boxes should not expand horizontally: Mikkel
+
+
+refactoring: (commented code, unused functions, variables):
+List for refactoring:

@@ -1,0 +1,9 @@
+Tasks:
+Availability & Used fetcher (front + back) - Ingvild
+
+getPredefined (fetch from our database + get data for plot) - Karl
+
+submitButton (get values of fields and send to server) - Mikkel
+
+refesh stockList + add notes to github/wiki - Kristian
+

@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+label {
+font-weight: bold;
+font-family:"San Francisco", Roboto;
+}
+
+.Display {
+display: flex;
+flex-direction: row;
+height: 100vh;
+width: 100vw;
+}
+
+.MenuDisplay {
+overflow: scroll;
+width: 20%;
+
+}
+.UserMenu{
+background-color: #e7e7e7;
+padding: 10px;
+border-color: black;
+border-radius: 30px !important;
+
+}
+
+.PlotDisplay {
+width: 80vw;
+padding: 20px;
+}
+
+.PlotContainer {
+  height: 90vh;
+}
+
+.DashboardButtonContainer {
+  height: 10vh;
+}
+
+.AdvancedOptionsBox {
+border-top: dotted;
+border-bottom: dotted;
+}
+
+.PlotButton {
+height: 100px;
+width: 150px;
+}
+
+.ModeSelector {
+text-align: center;
+}
+
+.OrgSelector {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.Dropdown {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.AdminContainer {
+background-color: #f0f0f0;
+border-color: black;
+padding: 10px;
+text-align: center;
+border-radius: 30px;
+}
+
+.InputBox {
+}
+
+.InputName {
+width: 80%;
+}
+
+.InputField {
+width: 50%;
+}
+
+.BoundaryInput{
+text-align: center;
+}
+
+.PeriodFrom{
+  text-align: center;
+}
+.TextAdvanced{
+  text-align: center;
+}
+.PlotButtonBox {
+display: flex;
+justify-content: center;
+}

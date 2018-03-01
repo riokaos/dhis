@@ -1,0 +1,9 @@
+
+
+ideas from Groupeleder
+
+
+1. move some logics to a specifc folder, backend.js, api.js, GlobalCalls.js
+2.dashboard, showing a predifined graph part.
+
+3.for future: searchable predifined for deleted

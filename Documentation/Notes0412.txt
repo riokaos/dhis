@@ -1,0 +1,13 @@
+- explain functionality
+ -user :
+ chooses options,
+ show what he gets, in the two modes
+ user can modify predefined
+
+ -admin mode
+ create new stock, choose min/max, period
+ Tryout functionality
+
+ User can now see the changes after admin added a stock
+ show what happens when there is no data.
+ 

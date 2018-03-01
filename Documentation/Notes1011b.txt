@@ -1,0 +1,28 @@
+Bruker:
+Orgname
+AdminDefinedStock (Custum)
+
+(
+Advanced (filled with values from AdminDefinedStock):
+AvailabilityInput
+UsedInput
+Min
+Max
+PeriodStart
+PeriodEnd
+)
+
+Admin:
+Name
+AvailabilityInput
+UsedInput
+Min
+Max
+PeriodStart
+PeriodEnd
+
+JSON:
+name = {name, usageID, availableID, min, max, fromMonth, toMonth, fromYear, toYear}
+
+
+*usageID (used balance), availableID(ending balance)

@@ -1,0 +1,31 @@
+
+updated 05/11/2017
+by: Carl Petter
+
+API DHIS2
+About indicators and Dataelements:
+What is referred to as a Data Element above, the key dimension that describes what is being
+collected, is sometimes referred to as an indicator in other settings. In DHIS2 we distinguish
+between Data Elements which describe the the raw data, e.g. the counts being collected, and
+Indicators, which are formula-based and describe calculated values, e.g. coverage or incidence
+rates that are used for data analysis.
+
+Our project is based on the premise of a simple clean way for someone to obtain fast stats on commodities and stocks for one or more Organizational units.
+
+We therefore have a  searchable dropdown  to choose one or many org units.
+
+Project API calls:
+Query for Orgunits:
+
+
+Queries joining the stocks:
+For the stocks we find that some are listed under indicators and some under dataelements.
+Although the definition says that indicators are calculated, we will look into the difference and probably use one drop down included the commodities and stocks associated.
+This could be aventually be set to be set via de admin.
+The normal user will have a preset set of stocks but with advanced options he can choose whatever he wants.(just one value to do the analytics by)
+
+
+The datastore:
+the keys in our datastore are going to be the same names of the stocks, so taht we can list them in one combo, that relates to the usageID, availableID
+JSON :
+name = {name, usageID, availableID, min, max, fromMonth, toMonth, fromYear, toYear}

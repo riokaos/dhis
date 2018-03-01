@@ -1,0 +1,88 @@
+Tasks:
+Front end
+	- Make the visual look good
+	- Make period for admin
+	- Show/hide Advanced button
+
+Check if admin:
+	- Check if user is admin
+	- Show/don't show admin panel
+
+UserInputComponent:
+	- Send uplift methods down to components
+	- Make components call uplift methods
+	render():
+	<BasicContainer>
+		<SelectOrg style = "ssdf.css", uplift = function...>
+		...
+		...
+
+Research API:
+	- Find calls to API we neeed for UserInput.getData()
+
+UserInput
+	- orgUnitID[]: int[]
+	- orgUnitName: String[]
+	- stockID: int
+	- stockName: String
+	- min: int
+	- max: int
+	- fromMonth: String
+	- toMonth: String
+	- fromYear: int
+	- toYear: int
+
+button.submit()
+UserInput.check()
+Result = UserInput.GetData() //Talks with dhis
+Result.calculate()
+Result.plot()
+	
+FrontEnd:
+
+UserInputComponent
+	State = {min: 3324, max: 23234, ...}
+	BasicContainer
+	AdvancedContainer	
+	ShowAdvancedOptionsButton
+	SubmitButton
+
+
+	
+
+Estimates:
+Adminview:
+	UserView
+	default period
+	default min/max
+	
+UserView:
+	basic:
+		- OrgUnit
+		- Stocktype
+	advanced:
+		- Period ("Select timeperiod for calculating average")
+		- min/max
+
+TimeTrend:
+Adminview:
+	UserView
+	default period
+	default min/max
+
+UserView:
+	basic:
+		- OrgUnit
+		- Stocktype
+	advanced:
+		- Period ("Select from/to")
+		- min/max
+		
+Global defaults:
+
+Estimates:
+period = last 12 months
+
+TimeTrend:
+period = last 12 months
+

@@ -1,0 +1,45 @@
+Final project presentation
+
+1.Groups and student names
+
+2.The assignment we have chosen, and how you decided to approach it
+
+3.An overview of the development process, including key challenges
+Development process:
+-we use trello to organize our work in a kanban type methodology
+-we first started with a prototype to visualize what we should be doing, then discussed it.
+-client-server microarchitecture:
+-we had 2 meetings a week, where we looked at the current process, everybody showing their code,
+where we gave and received feedback. The proceeded to merge the branches, and solve any issues.
+one of the meetings was on fridays, so that we could talk with the group leader about issues we where
+having difficulties to understand, and it provided us with a kind of Customer feedback each week
+-at the end of each meeting we created a document of what was still missing, and divided it upon the
+members. Then we would fix a time and date for our next meeting, where we would go through the tasks
+-if anyone had any problems we would discuss them via Hangouts
+
+Key challenges:
+
+-API: we took some time figuring out how to get the stocks dynamically for the usage and availability
+-in the last part of the project we did some refactoring
+-issues with planned graphical interface due to challenges
+-issues with the dashboard
+
+
+Improvements:
+-fix return problem
+-tab menu on top instead of Dropdown
+-admin could have listed or searchable the existing stock profiles
+
+4.An overview of the fundamental frameworks and libraries used, including /why/ you have chosen them and the implication
+on your product of how they are licensed
+-ReactJs
+-Highcharts
+-react select
+-Semantic UI
+
+5.The contribution of each group member
+
+6.A demo of the final product
+
+All points should be covered but give time for the demo of the final product
+20 minutes max

@@ -1,0 +1,456 @@
+{
+"headers": [
+{
+"name": "dx",
+"column": "Data",
+"valueType": "TEXT",
+"type": "java.lang.String",
+"hidden": false,
+"meta": true
+},
+{
+"name": "pe",
+"column": "Period",
+"valueType": "TEXT",
+"type": "java.lang.String",
+"hidden": false,
+"meta": true
+},
+{
+"name": "ou",
+"column": "Organisation unit",
+"valueType": "TEXT",
+"type": "java.lang.String",
+"hidden": false,
+"meta": true
+},
+{
+"name": "value",
+"column": "Value",
+"valueType": "NUMBER",
+"type": "java.lang.Double",
+"hidden": false,
+"meta": false
+}
+],
+"metaData": {
+"items": {
+"201701": {
+"name": "January 2017"
+},
+"201702": {
+"name": "February 2017"
+},
+"201703": {
+"name": "March 2017"
+},
+"201704": {
+"name": "April 2017"
+},
+"201705": {
+"name": "May 2017"
+},
+"201706": {
+"name": "June 2017"
+},
+"201707": {
+"name": "July 2017"
+},
+"201708": {
+"name": "August 2017"
+},
+"201709": {
+"name": "September 2017"
+},
+"201710": {
+"name": "October 2017"
+},
+"201711": {
+"name": "November 2017"
+},
+"psbwp3CQEhs": {
+"name": "Fixed, >1y"
+},
+"ou": {
+"name": "Organisation unit"
+},
+"Prlt0C1RF0s": {
+"name": "Fixed, <1y"
+},
+"hEFKSsPV5et": {
+"name": "Outreach, >1y"
+},
+"V6L425pT3A0": {
+"name": "Outreach, <1y"
+},
+"OEWO2PpiUKx": {
+"name": "BCG Stock PHU"
+},
+"NqWaKXcg01b": {
+"name": "Sowa"
+},
+"ImspTQPwCqd": {
+"name": "Sierra Leone"
+},
+"dx": {
+"name": "Data"
+},
+"pe": {
+"name": "Period"
+},
+"s46m5MS0hxu": {
+"name": "BCG doses given",
+"legendSet": "BtxOoQuLyg1"
+},
+"g8DdBm7EmUt": {
+"name": "Sittia"
+}
+},
+"dimensions": {
+"dx": [
+"OEWO2PpiUKx",
+"s46m5MS0hxu"
+],
+"pe": [
+"201701",
+"201702",
+"201703",
+"201704",
+"201705",
+"201706",
+"201707",
+"201708",
+"201709",
+"201710",
+"201711"
+],
+"ou": [
+"ImspTQPwCqd",
+"g8DdBm7EmUt",
+"NqWaKXcg01b"
+],
+"co": [
+"psbwp3CQEhs",
+"Prlt0C1RF0s",
+"hEFKSsPV5et",
+"V6L425pT3A0"
+]
+}
+},
+"height": 52,
+"width": 4,
+"rows": [
+[
+"OEWO2PpiUKx",
+"201701",
+"ImspTQPwCqd",
+"-23242.0"
+],
+[
+"OEWO2PpiUKx",
+"201701",
+"g8DdBm7EmUt",
+"60.0"
+],
+[
+"OEWO2PpiUKx",
+"201702",
+"ImspTQPwCqd",
+"-19895.0"
+],
+[
+"OEWO2PpiUKx",
+"201702",
+"NqWaKXcg01b",
+"-20.0"
+],
+[
+"OEWO2PpiUKx",
+"201703",
+"ImspTQPwCqd",
+"-9869.0"
+],
+[
+"OEWO2PpiUKx",
+"201703",
+"g8DdBm7EmUt",
+"2.0"
+],
+[
+"OEWO2PpiUKx",
+"201703",
+"NqWaKXcg01b",
+"-20.0"
+],
+[
+"OEWO2PpiUKx",
+"201704",
+"ImspTQPwCqd",
+"-18163.0"
+],
+[
+"OEWO2PpiUKx",
+"201704",
+"g8DdBm7EmUt",
+"-19.0"
+],
+[
+"OEWO2PpiUKx",
+"201704",
+"NqWaKXcg01b",
+"0.0"
+],
+[
+"OEWO2PpiUKx",
+"201705",
+"ImspTQPwCqd",
+"-79348.0"
+],
+[
+"OEWO2PpiUKx",
+"201705",
+"NqWaKXcg01b",
+"40.0"
+],
+[
+"OEWO2PpiUKx",
+"201706",
+"ImspTQPwCqd",
+"-5674.0"
+],
+[
+"OEWO2PpiUKx",
+"201706",
+"NqWaKXcg01b",
+"-20.0"
+],
+[
+"OEWO2PpiUKx",
+"201707",
+"ImspTQPwCqd",
+"-4262.0"
+],
+[
+"OEWO2PpiUKx",
+"201707",
+"g8DdBm7EmUt",
+"-12.0"
+],
+[
+"OEWO2PpiUKx",
+"201707",
+"NqWaKXcg01b",
+"20.0"
+],
+[
+"OEWO2PpiUKx",
+"201708",
+"ImspTQPwCqd",
+"-4842.0"
+],
+[
+"OEWO2PpiUKx",
+"201708",
+"g8DdBm7EmUt",
+"-25.0"
+],
+[
+"OEWO2PpiUKx",
+"201708",
+"NqWaKXcg01b",
+"-20.0"
+],
+[
+"OEWO2PpiUKx",
+"201709",
+"ImspTQPwCqd",
+"1214.0"
+],
+[
+"OEWO2PpiUKx",
+"201709",
+"g8DdBm7EmUt",
+"-60.0"
+],
+[
+"OEWO2PpiUKx",
+"201709",
+"NqWaKXcg01b",
+"20.0"
+],
+[
+"OEWO2PpiUKx",
+"201710",
+"ImspTQPwCqd",
+"219.0"
+],
+[
+"OEWO2PpiUKx",
+"201711",
+"ImspTQPwCqd",
+"-3101.0"
+],
+[
+"s46m5MS0hxu",
+"201707",
+"NqWaKXcg01b",
+"60.0"
+],
+[
+"s46m5MS0hxu",
+"201705",
+"NqWaKXcg01b",
+"41.0"
+],
+[
+"s46m5MS0hxu",
+"201709",
+"NqWaKXcg01b",
+"70.0"
+],
+[
+"s46m5MS0hxu",
+"201706",
+"NqWaKXcg01b",
+"57.0"
+],
+[
+"s46m5MS0hxu",
+"201708",
+"NqWaKXcg01b",
+"55.0"
+],
+[
+"s46m5MS0hxu",
+"201708",
+"g8DdBm7EmUt",
+"75.0"
+],
+[
+"s46m5MS0hxu",
+"201707",
+"g8DdBm7EmUt",
+"52.0"
+],
+[
+"s46m5MS0hxu",
+"201701",
+"NqWaKXcg01b",
+"62.0"
+],
+[
+"s46m5MS0hxu",
+"201706",
+"g8DdBm7EmUt",
+"35.0"
+],
+[
+"s46m5MS0hxu",
+"201702",
+"NqWaKXcg01b",
+"24.0"
+],
+[
+"s46m5MS0hxu",
+"201703",
+"NqWaKXcg01b",
+"50.0"
+],
+[
+"s46m5MS0hxu",
+"201703",
+"ImspTQPwCqd",
+"19396.0"
+],
+[
+"s46m5MS0hxu",
+"201709",
+"g8DdBm7EmUt",
+"38.0"
+],
+[
+"s46m5MS0hxu",
+"201704",
+"NqWaKXcg01b",
+"60.0"
+],
+[
+"s46m5MS0hxu",
+"201704",
+"ImspTQPwCqd",
+"20410.0"
+],
+[
+"s46m5MS0hxu",
+"201705",
+"ImspTQPwCqd",
+"22402.0"
+],
+[
+"s46m5MS0hxu",
+"201706",
+"ImspTQPwCqd",
+"23243.0"
+],
+[
+"s46m5MS0hxu",
+"201702",
+"g8DdBm7EmUt",
+"18.0"
+],
+[
+"s46m5MS0hxu",
+"201702",
+"ImspTQPwCqd",
+"20483.0"
+],
+[
+"s46m5MS0hxu",
+"201701",
+"ImspTQPwCqd",
+"20031.0"
+],
+[
+"s46m5MS0hxu",
+"201709",
+"ImspTQPwCqd",
+"21130.0"
+],
+[
+"s46m5MS0hxu",
+"201708",
+"ImspTQPwCqd",
+"20485.0"
+],
+[
+"s46m5MS0hxu",
+"201711",
+"ImspTQPwCqd",
+"16747.0"
+],
+[
+"s46m5MS0hxu",
+"201704",
+"g8DdBm7EmUt",
+"20.0"
+],
+[
+"s46m5MS0hxu",
+"201707",
+"ImspTQPwCqd",
+"21589.0"
+],
+[
+"s46m5MS0hxu",
+"201710",
+"ImspTQPwCqd",
+"17501.0"
+],
+[
+"s46m5MS0hxu",
+"201701",
+"g8DdBm7EmUt",
+"30.0"
+]
+]
+}

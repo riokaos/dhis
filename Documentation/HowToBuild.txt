@@ -1,0 +1,5 @@
+npm install (just to be sure)
+npm run build
+add manifest.webapp to build folder. Make sure it points to index.html
+zip contents of build folder (Not folder iteself. Important that manifest is at root level)
+upload in dhis app

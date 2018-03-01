@@ -1,0 +1,36 @@
+Flow:
+
+User selects mode then orgunits,stock. YES
+
+The fields in Advanced settings update automatically, NO
+
+The user can input advanced settings (have to be used in the query) YES/(NO)
+
+The user clicks the plot button YES
+
+MenuContainer:Validate states NO Ingvild
+- max>min = numbers, >=0
+to> = fromMonth
+stockSelected : !=null or (stockavailability =!null and stockUsage=! null)
+orgSelected: !=null
+
+Backend:
+estimates mode
+MenuContainer:getProperties()--> mode,availability_id,usage_id, min, max, period, orgnames([]), orgIDs[], stockname, statsInd. NO Ingvild
+
+timetrend mode
+MenuContainer:getProperties()--> mode,availability_id, min, max, period, orgname(string), orgID, stockname, statsInd. NO Ingvild
+
+
+
+menuContainer: backend.fetchData(properties)-->object from DHIS with rows PARTIALLY //must be moved to get correct output, MISSING for estimates Carl
+menuContainer: backend.createXySeries(rows, properties)--> object that contains x-series and y-series NO Kristian
+
+
+MenuContainer:plot(object with x-series and y series, properties) NO
+
+
+ADMIN panel Mikkel
+
+OBS:
+// the same file that holds the rows also has the object period, which gives and ordered list of the periods only, can be usefull for plotting

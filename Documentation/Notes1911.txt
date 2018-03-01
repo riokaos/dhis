@@ -1,0 +1,35 @@
+Features:
+
+--Correctness features--
+Fix login to something more advanced than basic authentication pri:3 time:5 (deemed unneccessary)
+Handle indicators.name == dataElement.name pri:2 time:3
+Fix min/max error for plot pri: 4 time:2(done)
+Update tutorial with new features pri:5 time:1(done)
+Add min/max labels to plot pri: 3 time:2(done)
+Refactor code pri: 10 time:9 Everyone (done)
+	- Fjerne ting som ikke brukes (kommentarer og gamle funksjoner)
+	- Fjerne unødvendig logging
+	- Legge til kommentarer
+Add license info to github pri: 8 time:2
+
+--Wiki--
+Requirements update (done)
+Architecture: Add reasoning for tools, add select, add only css, intro to react
+Division of labour, delete components
+Update timeline
+
+Refactor division:
+Mikkel:
+AdvancedOptions
+AdminPanel
+
+Kristian:
+PlotThingy
+BackendStuff
+
+Ingvild:
+MenuContainer
+
+Still to fix:
+Remove getAllComs? If not Refactor
+

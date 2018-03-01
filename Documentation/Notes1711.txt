@@ -1,0 +1,26 @@
+
+Features:
+
+--Correctness features--
+Remove usage input box for timetrend (only for user) pri:7 time:3 Mikkel (done)
+Remove to date for estimates (only for user, using current date) pri:7 time:3 Mikkel (done)
+Add two sets of min/max input for estimates in admin pri:6 time:6 Ingvild (done)
+Test uploading the app //pri:10 time:7, Kristian (done)
+Fix login to something more advanced than basic authentication pri:3 time:5
+Handle indicators.name == dataElement.name pri:2 time:3
+
+--New features--
+Add delete stock option for admin pri:6 time:5 Mikkel (done)
+Create "try it out" button for admin panel (fill in information in user panel) pri:7 time:6 Ingvild (done)
+Add tutorial/instructions/explanation of input fields pri:5 time:4 Kristian (done)
+
+
+--Wiki--
+Lisence (MIT)
+Requirements update
+Architecture: Add reasoning for tools, add select, add only css, intro to react
+Division of labour, delete components
+Update timeline
+
+Bugs:
+Make it work for custom stock pri:5 time:1 Ingvild (done)
